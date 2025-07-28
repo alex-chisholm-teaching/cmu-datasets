@@ -18,6 +18,9 @@ this repo contains code to datasets or clean up datasets.
 
 * https://rnacentral.org/help/public-database
 
+# Scraping
+* https://music-to-scrape.org/
+
 # Other resources
 
 * https://www.kaggle.com/datasets
