@@ -1,0 +1,5 @@
+pandas
+numpy
+xlrd # excel
+openpyxl # excel help
+pyjanitor # clean var names
