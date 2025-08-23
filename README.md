@@ -8,6 +8,26 @@ this repo contains code to datasets or clean up datasets.
 * [General Social Survey](https://gss.norc.org/us/en/gss/get-the-data.html): .sav (spss)
 * [NYC Open Data](https://opendata.cityofnewyork.us/data/)
 
+# Flat Files
+
+Text-Based (Human Readable)
+
+CSV (comma, semicolon, pipe variations)
+TSV (tab-separated)
+Fixed-Width (legacy systems)
+JSON (records, nested, index formats)
+YAML (configuration files)
+
+Binary (Computer Optimized)
+
+Pickle (Python-specific serialization)
+Parquet (columnar analytics)
+Feather (fast pandas I/O)
+HDF5 (hierarchical scientific data)
+Excel (.xlsx, multiple sheets)
+Arrow IPC (inter-language compatibility)
+MessagePack (binary JSON alternative)
+
 # API
 
 * [FRED](https://fred.stlouisfed.org/docs/api/fred/): API Key
