@@ -6,3 +6,6 @@ pyjanitor # clean var names
 pyarrow # parquet
 tables # HDF5 requirement
 matplotlib
+streamlit
+plotly
+duckdb
