@@ -8,7 +8,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Connect to the database
-conn = duckdb.connect('weo.db')
+conn = duckdb.connect('clean/weo/weo.duckdb')
+conn
 
 # ============================================================================
 # 1. BASIC DATABASE OVERVIEW
@@ -57,6 +58,7 @@ print("\n=== METRICS TABLE ===")
 # Load metrics as DataFrame
 metrics = conn.execute("SELECT * FROM metrics").df()
 print(f"Metrics shape: {metrics.shape}")
+metrics
 
 # Most common units
 print("\nMost common units:")
