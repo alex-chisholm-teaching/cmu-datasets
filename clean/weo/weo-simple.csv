@@ -1,0 +1,197 @@
+country,region7,econ_group,group_g7,group_european_union,group_asean5,gdp_capita,gdp,inflation,population,unemployment
+Afghanistan,South Asia,Emerging and Developing,False,False,False,2164.351,91.272,-7.714,42.171,
+Albania,Europe and Central Asia,Emerging and Developing,False,False,False,21747.183,59.205,2.225,2.722,8.8
+Algeria,Middle East and North Africa,Emerging and Developing,False,False,False,17669.858,823.878,4.046,46.626,11.383
+Andorra,Europe and Central Asia,Advanced,False,False,False,70501.395,6.14,3.074,0.087,1.425
+Angola,Sub-Saharan Africa,Emerging and Developing,False,False,False,10078.614,382.666,28.232,37.968,
+Antigua and Barbuda,Latin America and Caribbean,Emerging and Developing,False,False,False,30433.003,3.151,6.36,0.104,
+Argentina,Latin America and Caribbean,Emerging and Developing,False,False,False,29263.048,1378.908,219.885,47.121,7.15
+Armenia,Europe and Central Asia,Emerging and Developing,False,False,False,23360.984,69.252,0.272,2.964,13.0
+Aruba,Latin America and Caribbean,Emerging and Developing,False,False,False,48478.811,5.265,1.712,0.109,3.859
+Australia,East Asia and Pacific,Advanced,False,False,False,69970.69,1897.774,3.198,27.122,4.025
+Austria,Europe and Central Asia,Advanced,False,True,False,72818.694,666.932,2.918,9.159,5.423
+Azerbaijan,Europe and Central Asia,Emerging and Developing,False,False,False,24983.786,256.049,2.2,10.249,5.394
+Bahrain,Middle East and North Africa,Emerging and Developing,False,False,False,65888.992,106.526,0.92,1.617,5.9
+Bangladesh,South Asia,Emerging and Developing,False,False,False,9733.359,1674.318,9.73,172.019,
+Barbados,Latin America and Caribbean,Emerging and Developing,False,False,False,22062.333,6.416,1.416,0.291,7.913
+Belarus,Europe and Central Asia,Emerging and Developing,False,False,False,32365.128,295.572,5.75,9.132,3.036
+Belgium,Europe and Central Asia,Advanced,False,True,False,73500.432,868.562,4.322,11.817,5.7
+Belize,Latin America and Caribbean,Emerging and Developing,False,False,False,15324.207,6.297,3.28,0.411,2.6
+Benin,Sub-Saharan Africa,Emerging and Developing,False,False,False,4508.997,63.571,1.165,14.099,
+Bhutan,South Asia,Emerging and Developing,False,False,False,16251.063,12.842,4.26,0.79,3.5
+Bolivia,Latin America and Caribbean,Emerging and Developing,False,False,False,11292.655,138.787,5.1,12.29,5.0
+Bosnia and Herzegovina,Europe and Central Asia,Emerging and Developing,False,False,False,21571.807,74.533,1.693,3.455,13.2
+Botswana,Sub-Saharan Africa,Emerging and Developing,False,False,False,19038.741,51.78,2.827,2.72,
+Brazil,Latin America and Caribbean,Emerging and Developing,False,False,False,22271.942,4734.653,4.367,212.584,6.925
+Brunei Darussalam,East Asia and Pacific,Emerging and Developing,False,False,False,91695.051,41.648,-0.389,0.454,4.9
+Bulgaria,Europe and Central Asia,Emerging and Developing,False,True,False,39439.331,251.663,2.597,6.381,4.234
+Burkina Faso,Sub-Saharan Africa,Emerging and Developing,False,False,False,2851.4,67.989,4.193,23.844,
+Burundi,Sub-Saharan Africa,Emerging and Developing,False,False,False,999.905,13.364,20.188,13.365,
+Cabo Verde,Sub-Saharan Africa,Emerging and Developing,False,False,False,11426.843,5.845,1.0,0.512,8.5
+Cambodia,East Asia and Pacific,Emerging and Developing,False,False,False,8179.246,140.535,0.873,17.182,
+Cameroon,Sub-Saharan Africa,Emerging and Developing,False,False,False,5547.602,162.626,4.508,29.315,
+Canada,North America,Advanced,True,False,False,63760.253,2623.362,2.398,41.144,6.375
+Central African Republic,Sub-Saharan Africa,Emerging and Developing,False,False,False,1301.685,6.939,3.425,5.331,
+Chad,Sub-Saharan Africa,Emerging and Developing,False,False,False,2942.667,54.254,5.706,18.437,
+Chile,Latin America and Caribbean,Emerging and Developing,False,False,False,33756.351,678.043,3.927,20.086,8.462
+China,East Asia and Pacific,Emerging and Developing,False,False,False,27092.779,38154.219,0.212,1408.28,5.117
+Colombia,Latin America and Caribbean,Emerging and Developing,False,False,False,21493.706,1132.631,6.602,52.696,10.158
+Comoros,Sub-Saharan Africa,Emerging and Developing,False,False,False,3855.987,3.431,5.048,0.89,
+Costa Rica,Latin America and Caribbean,Emerging and Developing,False,False,False,29892.358,159.18,-0.412,5.325,6.878
+Croatia,Europe and Central Asia,Emerging and Developing,False,True,False,48565.632,187.276,4.017,3.856,5.457
+Cyprus,Europe and Central Asia,Advanced,False,True,False,62205.915,58.23,2.265,0.936,4.862
+Czech Republic,Europe and Central Asia,Advanced,False,True,False,56744.316,620.517,2.435,10.935,2.8
+Côte d'Ivoire,Sub-Saharan Africa,Emerging and Developing,False,False,False,7645.41,244.523,3.46,31.983,
+Democratic Republic of the Congo,Sub-Saharan Africa,Emerging and Developing,False,False,False,1810.142,186.801,17.653,103.197,
+Denmark,Europe and Central Asia,Advanced,False,True,False,84762.011,505.287,1.268,5.961,2.9
+Djibouti,Middle East and North Africa,Emerging and Developing,False,False,False,8759.405,9.136,2.114,1.043,
+Dominica,Latin America and Caribbean,Emerging and Developing,False,False,False,18395.878,1.377,1.892,0.075,
+Dominican Republic,Latin America and Caribbean,Emerging and Developing,False,False,False,29149.992,314.729,3.302,10.797,5.148
+Ecuador,Latin America and Caribbean,Emerging and Developing,False,False,False,15996.059,287.394,1.547,17.967,3.38
+Egypt,Middle East and North Africa,Emerging and Developing,False,False,False,20749.635,2226.519,33.302,107.304,7.375
+El Salvador,Latin America and Caribbean,Emerging and Developing,False,False,False,13125.309,83.917,1.0,6.394,5.216
+Equatorial Guinea,Sub-Saharan Africa,Emerging and Developing,False,False,False,21102.981,33.56,3.162,1.59,
+Eritrea,Sub-Saharan Africa,Emerging and Developing,False,False,False,1821.279,6.369,1.3,3.497,
+Estonia,Europe and Central Asia,Advanced,False,True,False,48112.372,65.981,3.733,1.371,7.501
+Eswatini,Sub-Saharan Africa,Emerging and Developing,False,False,False,12862.194,15.125,4.034,1.176,
+Ethiopia,Sub-Saharan Africa,Emerging and Developing,False,False,False,4082.601,442.609,21.746,108.414,
+Fiji,East Asia and Pacific,Emerging and Developing,False,False,False,16111.724,14.867,4.5,0.923,5.0
+Finland,Europe and Central Asia,Advanced,False,True,False,64249.338,360.044,0.975,5.604,8.4
+France,Europe and Central Asia,Advanced,True,True,False,63698.382,4359.302,2.317,68.437,7.383
+Gabon,Sub-Saharan Africa,Emerging and Developing,False,False,False,24118.221,54.448,1.164,2.258,
+Georgia,Europe and Central Asia,Emerging and Developing,False,False,False,28258.381,104.403,1.11,3.695,13.9
+Germany,Europe and Central Asia,Advanced,True,True,False,70878.415,6004.553,2.489,84.716,3.408
+Ghana,Sub-Saharan Africa,Emerging and Developing,False,False,False,8027.18,276.355,22.875,34.427,
+Greece,Europe and Central Asia,Advanced,False,True,False,42922.829,446.428,2.997,10.401,10.1
+Grenada,Latin America and Caribbean,Emerging and Developing,False,False,False,20429.829,2.362,1.407,0.116,
+Guatemala,Latin America and Caribbean,Emerging and Developing,False,False,False,14826.727,264.663,2.869,17.85,
+Guinea,Sub-Saharan Africa,Emerging and Developing,False,False,False,4428.251,68.272,8.112,15.417,
+Guinea-Bissau,Sub-Saharan Africa,Emerging and Developing,False,False,False,3102.188,6.136,3.704,1.978,
+Guyana,Latin America and Caribbean,Emerging and Developing,False,False,False,83483.29,66.487,2.455,0.796,
+Haiti,Latin America and Caribbean,Emerging and Developing,False,False,False,3033.326,37.586,25.844,12.391,
+Honduras,Latin America and Caribbean,Emerging and Developing,False,False,False,7606.817,81.083,4.606,10.659,8.005
+Hong Kong SAR,East Asia and Pacific,Advanced,False,False,False,75115.01,565.932,1.73,7.534,3.0
+Hungary,Europe and Central Asia,Emerging and Developing,False,True,False,46545.923,446.143,3.707,9.585,4.475
+Iceland,Europe and Central Asia,Advanced,False,False,False,79049.091,30.333,5.859,0.384,3.367
+India,South Asia,Emerging and Developing,False,False,False,11227.689,16187.183,4.668,1441.72,4.939
+Indonesia,East Asia and Pacific,Emerging and Developing,False,False,True,16558.347,4662.893,2.3,281.604,4.91
+Iraq,Middle East and North Africa,Emerging and Developing,False,False,False,15384.461,683.298,2.578,44.415,
+Ireland,Europe and Central Asia,Advanced,False,True,False,129433.156,701.801,1.323,5.422,4.3
+Islamic Republic of Iran,Middle East and North Africa,Emerging and Developing,False,False,False,19576.509,1695.837,32.6,86.626,7.765
+Israel,Middle East and North Africa,Advanced,False,False,False,53928.733,537.759,3.071,9.972,2.975
+Italy,Europe and Central Asia,Advanced,True,True,False,61165.473,3607.003,1.089,58.971,6.558
+Jamaica,Latin America and Caribbean,Emerging and Developing,False,False,False,12032.025,33.084,5.548,2.75,4.175
+Japan,East Asia and Pacific,Advanced,True,False,False,52712.614,6530.591,2.739,123.89,2.567
+Jordan,Middle East and North Africa,Emerging and Developing,False,False,False,10981.152,125.02,0.161,11.385,21.975
+Kazakhstan,Europe and Central Asia,Emerging and Developing,False,False,False,41734.957,840.09,8.676,20.129,4.674
+Kenya,Sub-Saharan Africa,Emerging and Developing,False,False,False,7123.759,373.596,4.496,52.444,
+Kiribati,East Asia and Pacific,Emerging and Developing,False,False,False,3529.68,0.449,2.488,0.127,
+Korea,East Asia and Pacific,Advanced,False,False,False,62697.069,3244.64,2.322,51.751,2.8
+Kosovo,Europe and Central Asia,Emerging and Developing,False,False,False,18977.634,30.118,1.621,1.587,10.875
+Kuwait,Middle East and North Africa,Emerging and Developing,False,False,False,49708.104,249.114,2.899,5.012,
+Kyrgyz Republic,Europe and Central Asia,Emerging and Developing,False,False,False,8175.96,57.865,5.021,7.077,3.983
+Lao P.D.R.,East Asia and Pacific,Emerging and Developing,False,False,False,9747.935,74.919,23.132,7.686,
+Latvia,Europe and Central Asia,Advanced,False,True,False,42473.35,79.505,1.349,1.872,6.927
+Lebanon,Middle East and North Africa,Emerging and Developing,False,False,False,11798.48,63.168,45.243,5.354,11.543
+Lesotho,Sub-Saharan Africa,Emerging and Developing,False,False,False,3286.211,7.11,6.102,2.164,
+Liberia,Sub-Saharan Africa,Emerging and Developing,False,False,False,1898.603,10.558,8.215,5.561,
+Libya,Middle East and North Africa,Emerging and Developing,False,False,False,14893.734,102.962,2.126,6.913,
+Lithuania,Europe and Central Asia,Advanced,False,True,False,54215.976,156.792,0.852,2.892,7.133
+Luxembourg,Europe and Central Asia,Advanced,False,True,False,149582.781,100.527,2.252,0.672,5.735
+Macao SAR,East Asia and Pacific,Advanced,False,False,False,128025.819,88.12,0.738,0.688,1.8
+Madagascar,Sub-Saharan Africa,Emerging and Developing,False,False,False,1967.945,60.207,7.64,30.594,
+Malawi,Sub-Saharan Africa,Emerging and Developing,False,False,False,1721.567,40.256,32.162,23.384,
+Malaysia,East Asia and Pacific,Emerging and Developing,False,False,True,41156.534,1377.113,1.834,33.46,3.2
+Maldives,South Asia,Emerging and Developing,False,False,False,34685.849,14.014,1.445,0.404,
+Mali,Sub-Saharan Africa,Emerging and Developing,False,False,False,2810.82,67.546,3.221,24.031,
+Malta,Middle East and North Africa,Advanced,False,True,False,73258.783,40.491,2.441,0.553,3.117
+Marshall Islands,East Asia and Pacific,Emerging and Developing,False,False,False,6946.081,0.267,5.363,0.038,
+Mauritania,Sub-Saharan Africa,Emerging and Developing,False,False,False,8250.331,37.362,2.285,4.529,
+Mauritius,Sub-Saharan Africa,Emerging and Developing,False,False,False,31078.764,39.108,3.599,1.258,5.8
+Mexico,Latin America and Caribbean,Emerging and Developing,False,False,False,25074.233,3316.68,4.723,132.274,2.668
+Micronesia,East Asia and Pacific,Emerging and Developing,False,False,False,4595.003,0.434,5.439,0.095,
+Moldova,Europe and Central Asia,Emerging and Developing,False,False,False,18527.017,44.896,4.683,2.423,3.955
+Mongolia,East Asia and Pacific,Emerging and Developing,False,False,False,18989.753,67.316,6.799,3.545,5.0
+Montenegro,Europe and Central Asia,Emerging and Developing,False,False,False,31750.22,20.114,3.335,0.634,
+Morocco,Middle East and North Africa,Emerging and Developing,False,False,False,10658.839,398.321,0.935,37.37,13.3
+Mozambique,Sub-Saharan Africa,Emerging and Developing,False,False,False,1688.654,58.864,3.202,34.858,
+Myanmar,East Asia and Pacific,Emerging and Developing,False,False,False,5689.195,312.486,26.5,54.926,
+Namibia,Sub-Saharan Africa,Emerging and Developing,False,False,False,11844.074,35.412,4.24,2.99,
+Nauru,East Asia and Pacific,Emerging and Developing,False,False,False,10860.472,0.142,11.574,0.013,
+Nepal,South Asia,Emerging and Developing,False,False,False,5411.968,169.122,5.423,31.25,
+Netherlands,Europe and Central Asia,Advanced,False,True,False,81705.3,1466.033,3.223,17.943,3.659
+New Zealand,East Asia and Pacific,Advanced,False,False,False,53845.621,287.258,2.923,5.335,4.725
+Nicaragua,Latin America and Caribbean,Emerging and Developing,False,False,False,8695.963,60.231,4.636,6.926,3.362
+Niger,Sub-Saharan Africa,Emerging and Developing,False,False,False,1986.507,55.781,9.072,28.08,
+Nigeria,Sub-Saharan Africa,Emerging and Developing,False,False,False,6580.275,1498.414,33.242,227.713,22.562
+North Macedonia,Europe and Central Asia,Emerging and Developing,False,False,False,27681.123,50.353,3.5,1.819,13.01
+Norway,Europe and Central Asia,Advanced,False,False,False,103585.617,578.53,3.145,5.585,4.013
+Oman,Middle East and North Africa,Emerging and Developing,False,False,False,41275.192,220.051,0.591,5.331,
+Pakistan,South Asia,Emerging and Developing,False,False,False,6724.205,1586.576,23.411,235.95,8.25
+Palau,East Asia and Pacific,Emerging and Developing,False,False,False,16867.936,0.296,3.61,0.018,
+Panama,Latin America and Caribbean,Emerging and Developing,False,False,False,41572.494,187.472,0.794,4.51,8.4
+Papua New Guinea,East Asia and Pacific,Emerging and Developing,False,False,False,3573.503,44.81,0.586,12.539,
+Paraguay,Latin America and Caribbean,Emerging and Developing,False,False,False,18593.027,128.046,3.835,6.887,5.807
+Peru,Latin America and Caribbean,Emerging and Developing,False,False,False,17879.21,609.114,2.351,34.068,6.4
+Philippines,East Asia and Pacific,Emerging and Developing,False,False,True,12072.808,1366.278,3.213,113.17,3.808
+Poland,Europe and Central Asia,Emerging and Developing,False,True,False,51983.429,1903.684,3.723,36.621,2.75
+Portugal,Europe and Central Asia,Advanced,False,True,False,47996.659,512.185,2.67,10.671,6.475
+Puerto Rico,Latin America and Caribbean,Advanced,False,False,False,49608.139,158.233,1.593,3.19,6.241
+Qatar,Middle East and North Africa,Emerging and Developing,False,False,False,116249.332,359.633,1.073,3.094,
+Republic of Congo,Sub-Saharan Africa,Emerging and Developing,False,False,False,6390.614,40.321,3.058,6.309,
+Romania,Europe and Central Asia,Emerging and Developing,False,True,False,46906.351,888.588,5.584,18.944,5.433
+Russia,Europe and Central Asia,Emerging and Developing,False,False,False,47269.22,6905.073,8.444,146.08,2.516
+Rwanda,Sub-Saharan Africa,Emerging and Developing,False,False,False,3814.347,52.855,4.769,13.857,
+Samoa,East Asia and Pacific,Emerging and Developing,False,False,False,7088.831,1.493,3.586,0.211,
+San Marino,Europe and Central Asia,Advanced,False,False,False,80322.06,2.75,1.244,0.034,4.413
+Saudi Arabia,Middle East and North Africa,Emerging and Developing,False,False,False,59741.029,2108.875,1.688,35.3,3.5
+Senegal,Sub-Saharan Africa,Emerging and Developing,False,False,False,5075.038,94.703,0.804,18.661,
+Serbia,Europe and Central Asia,Emerging and Developing,False,False,False,30956.315,203.575,4.671,6.576,8.575
+Seychelles,Sub-Saharan Africa,Emerging and Developing,False,False,False,39880.72,4.016,0.184,0.101,3.0
+Sierra Leone,Sub-Saharan Africa,Emerging and Developing,False,False,False,3371.959,30.254,28.429,8.972,
+Singapore,East Asia and Pacific,Advanced,False,False,True,150689.491,909.691,2.39,6.037,1.95
+Slovak Republic,Europe and Central Asia,Advanced,False,True,False,45582.773,247.272,3.154,5.425,5.358
+Slovenia,Europe and Central Asia,Advanced,False,True,False,55619.027,118.132,1.966,2.124,3.675
+Solomon Islands,East Asia and Pacific,Emerging and Developing,False,False,False,2621.692,2.054,4.23,0.783,
+Somalia,Sub-Saharan Africa,Emerging and Developing,False,False,False,1844.608,30.437,5.529,16.501,
+South Africa,Sub-Saharan Africa,Emerging and Developing,False,False,False,15654.361,989.391,4.426,63.202,32.8
+South Sudan,Sub-Saharan Africa,Emerging and Developing,False,False,False,750.318,11.591,128.401,15.448,
+Spain,Europe and Central Asia,Advanced,False,True,False,54451.021,2672.346,2.867,49.078,11.345
+Sri Lanka,South Asia,Emerging and Developing,False,False,False,14972.338,342.604,1.242,22.882,4.75
+St. Kitts and Nevis,Latin America and Caribbean,Emerging and Developing,False,False,False,32539.407,1.673,1.044,0.051,
+St. Lucia,Latin America and Caribbean,Emerging and Developing,False,False,False,27438.475,4.95,-0.448,0.18,
+St. Vincent and the Grenadines,Latin America and Caribbean,Emerging and Developing,False,False,False,19836.894,2.204,3.594,0.111,
+Sudan,Sub-Saharan Africa,Emerging and Developing,False,False,False,2343.537,115.162,176.779,49.14,60.848
+Suriname,Latin America and Caribbean,Emerging and Developing,False,False,False,21504.349,13.915,16.226,0.647,10.3
+Sweden,Europe and Central Asia,Advanced,False,True,False,72232.64,764.778,2.004,10.588,8.35
+Switzerland,Europe and Central Asia,Advanced,False,False,False,94937.215,850.827,1.06,8.962,2.448
+Syria,Middle East and North Africa,Emerging and Developing,False,False,False,6374.969,136.379,4.398,21.393,8.613
+São Tomé and Príncipe,Sub-Saharan Africa,Emerging and Developing,False,False,False,6194.682,1.468,14.416,0.237,13.472
+Taiwan Province of China,East Asia and Pacific,Advanced,False,False,False,79564.849,1861.835,2.181,23.4,3.39
+Tajikistan,Europe and Central Asia,Emerging and Developing,False,False,False,5615.024,57.205,3.505,10.188,2.492
+Tanzania,Sub-Saharan Africa,Emerging and Developing,False,False,False,4135.419,269.757,3.243,65.231,
+Thailand,East Asia and Pacific,Emerging and Developing,False,False,True,25210.871,1771.469,0.398,70.266,1.0
+The Bahamas,Latin America and Caribbean,Emerging and Developing,False,False,False,37564.429,15.332,0.413,0.408,9.429
+The Gambia,Sub-Saharan Africa,Emerging and Developing,False,False,False,3493.641,9.515,11.564,2.724,
+Timor-Leste,East Asia and Pacific,Emerging and Developing,False,False,False,4727.695,6.622,2.063,1.401,
+Togo,Sub-Saharan Africa,Emerging and Developing,False,False,False,3290.793,30.571,3.3,9.29,
+Tonga,East Asia and Pacific,Emerging and Developing,False,False,False,7653.573,0.761,4.687,0.099,
+Trinidad and Tobago,Latin America and Caribbean,Emerging and Developing,False,False,False,34436.256,49.181,0.477,1.428,4.109
+Tunisia,Middle East and North Africa,Emerging and Developing,False,False,False,14304.042,176.448,7.007,12.336,16.4
+Turkmenistan,Europe and Central Asia,Emerging and Developing,False,False,False,26870.371,177.293,4.798,6.598,
+Tuvalu,East Asia and Pacific,Emerging and Developing,False,False,False,6658.352,0.066,1.165,0.01,
+Türkiye,Europe and Central Asia,Emerging and Developing,False,False,False,40501.47,3463.645,58.506,85.519,8.7
+Uganda,Sub-Saharan Africa,Emerging and Developing,False,False,False,3683.965,171.758,3.323,46.623,
+Ukraine,Europe and Central Asia,Emerging and Developing,False,False,False,19765.075,659.022,6.504,33.343,13.1
+United Arab Emirates,Middle East and North Africa,Emerging and Developing,False,False,False,77094.761,847.959,1.742,10.999,
+United Kingdom,Europe and Central Asia,Advanced,True,False,False,61921.239,4286.574,2.53,69.226,4.275
+United States,North America,Advanced,True,False,False,85812.176,29184.9,2.952,340.102,4.033
+Uruguay,Latin America and Caribbean,Emerging and Developing,False,False,False,35173.09,123.333,4.85,3.506,8.183
+Uzbekistan,Europe and Central Asia,Emerging and Developing,False,False,False,11704.351,432.189,9.626,36.926,5.54
+Vanuatu,East Asia and Pacific,Emerging and Developing,False,False,False,2967.817,1.025,4.215,0.345,
+Venezuela,Latin America and Caribbean,Emerging and Developing,False,False,False,8556.8,227.279,48.983,26.561,35.554
+Vietnam,East Asia and Pacific,Emerging and Developing,False,False,False,16335.01,1654.736,3.624,101.3,2.2
+West Bank and Gaza,Middle East and North Africa,Emerging and Developing,False,False,False,5611.832,30.737,52.9,5.477,24.42
+Yemen,Middle East and North Africa,Emerging and Developing,False,False,False,1704.843,69.188,33.918,40.583,
+Zambia,Sub-Saharan Africa,Emerging and Developing,False,False,False,4259.982,90.033,14.986,21.135,
+Zimbabwe,Sub-Saharan Africa,Emerging and Developing,False,False,False,5075.699,86.249,736.106,16.993,

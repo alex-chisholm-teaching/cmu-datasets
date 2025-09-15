@@ -1,0 +1,199 @@
+country_id,iso_code,name,region7,econ_group,group_g7,group_european_union,group_asean5
+1,AFG,Afghanistan,South Asia,Emerging and Developing,False,False,False
+2,ALB,Albania,Europe and Central Asia,Emerging and Developing,False,False,False
+3,DZA,Algeria,Middle East and North Africa,Emerging and Developing,False,False,False
+4,AND,Andorra,Europe and Central Asia,Advanced,False,False,False
+5,AGO,Angola,Sub-Saharan Africa,Emerging and Developing,False,False,False
+6,ATG,Antigua and Barbuda,Latin America and Caribbean,Emerging and Developing,False,False,False
+7,ARG,Argentina,Latin America and Caribbean,Emerging and Developing,False,False,False
+8,ARM,Armenia,Europe and Central Asia,Emerging and Developing,False,False,False
+9,ABW,Aruba,Latin America and Caribbean,Emerging and Developing,False,False,False
+10,AUS,Australia,East Asia and Pacific,Advanced,False,False,False
+11,AUT,Austria,Europe and Central Asia,Advanced,False,True,False
+12,AZE,Azerbaijan,Europe and Central Asia,Emerging and Developing,False,False,False
+13,BHR,Bahrain,Middle East and North Africa,Emerging and Developing,False,False,False
+14,BGD,Bangladesh,South Asia,Emerging and Developing,False,False,False
+15,BRB,Barbados,Latin America and Caribbean,Emerging and Developing,False,False,False
+16,BLR,Belarus,Europe and Central Asia,Emerging and Developing,False,False,False
+17,BEL,Belgium,Europe and Central Asia,Advanced,False,True,False
+18,BLZ,Belize,Latin America and Caribbean,Emerging and Developing,False,False,False
+19,BEN,Benin,Sub-Saharan Africa,Emerging and Developing,False,False,False
+20,BTN,Bhutan,South Asia,Emerging and Developing,False,False,False
+21,BOL,Bolivia,Latin America and Caribbean,Emerging and Developing,False,False,False
+22,BIH,Bosnia and Herzegovina,Europe and Central Asia,Emerging and Developing,False,False,False
+23,BWA,Botswana,Sub-Saharan Africa,Emerging and Developing,False,False,False
+24,BRA,Brazil,Latin America and Caribbean,Emerging and Developing,False,False,False
+25,BRN,Brunei Darussalam,East Asia and Pacific,Emerging and Developing,False,False,False
+26,BGR,Bulgaria,Europe and Central Asia,Emerging and Developing,False,True,False
+27,BFA,Burkina Faso,Sub-Saharan Africa,Emerging and Developing,False,False,False
+28,BDI,Burundi,Sub-Saharan Africa,Emerging and Developing,False,False,False
+29,CPV,Cabo Verde,Sub-Saharan Africa,Emerging and Developing,False,False,False
+30,KHM,Cambodia,East Asia and Pacific,Emerging and Developing,False,False,False
+31,CMR,Cameroon,Sub-Saharan Africa,Emerging and Developing,False,False,False
+32,CAN,Canada,North America,Advanced,True,False,False
+33,CAF,Central African Republic,Sub-Saharan Africa,Emerging and Developing,False,False,False
+34,TCD,Chad,Sub-Saharan Africa,Emerging and Developing,False,False,False
+35,CHL,Chile,Latin America and Caribbean,Emerging and Developing,False,False,False
+36,CHN,China,East Asia and Pacific,Emerging and Developing,False,False,False
+37,COL,Colombia,Latin America and Caribbean,Emerging and Developing,False,False,False
+38,COM,Comoros,Sub-Saharan Africa,Emerging and Developing,False,False,False
+39,CRI,Costa Rica,Latin America and Caribbean,Emerging and Developing,False,False,False
+40,HRV,Croatia,Europe and Central Asia,Emerging and Developing,False,True,False
+41,CYP,Cyprus,Europe and Central Asia,Advanced,False,True,False
+42,CZE,Czech Republic,Europe and Central Asia,Advanced,False,True,False
+43,CIV,CÙte d'Ivoire,,,,,
+44,COD,Democratic Republic of the Congo,Sub-Saharan Africa,Emerging and Developing,False,False,False
+45,DNK,Denmark,Europe and Central Asia,Advanced,False,True,False
+46,DJI,Djibouti,Middle East and North Africa,Emerging and Developing,False,False,False
+47,DMA,Dominica,Latin America and Caribbean,Emerging and Developing,False,False,False
+48,DOM,Dominican Republic,Latin America and Caribbean,Emerging and Developing,False,False,False
+49,ECU,Ecuador,Latin America and Caribbean,Emerging and Developing,False,False,False
+50,EGY,Egypt,Middle East and North Africa,Emerging and Developing,False,False,False
+51,SLV,El Salvador,Latin America and Caribbean,Emerging and Developing,False,False,False
+52,GNQ,Equatorial Guinea,Sub-Saharan Africa,Emerging and Developing,False,False,False
+53,ERI,Eritrea,Sub-Saharan Africa,Emerging and Developing,False,False,False
+54,EST,Estonia,Europe and Central Asia,Advanced,False,True,False
+55,SWZ,Eswatini,Sub-Saharan Africa,Emerging and Developing,False,False,False
+56,ETH,Ethiopia,Sub-Saharan Africa,Emerging and Developing,False,False,False
+57,FJI,Fiji,East Asia and Pacific,Emerging and Developing,False,False,False
+58,FIN,Finland,Europe and Central Asia,Advanced,False,True,False
+59,FRA,France,Europe and Central Asia,Advanced,True,True,False
+60,GAB,Gabon,Sub-Saharan Africa,Emerging and Developing,False,False,False
+61,GEO,Georgia,Europe and Central Asia,Emerging and Developing,False,False,False
+62,DEU,Germany,Europe and Central Asia,Advanced,True,True,False
+63,GHA,Ghana,Sub-Saharan Africa,Emerging and Developing,False,False,False
+64,GRC,Greece,Europe and Central Asia,Advanced,False,True,False
+65,GRD,Grenada,Latin America and Caribbean,Emerging and Developing,False,False,False
+66,GTM,Guatemala,Latin America and Caribbean,Emerging and Developing,False,False,False
+67,GIN,Guinea,Sub-Saharan Africa,Emerging and Developing,False,False,False
+68,GNB,Guinea-Bissau,Sub-Saharan Africa,Emerging and Developing,False,False,False
+69,GUY,Guyana,Latin America and Caribbean,Emerging and Developing,False,False,False
+70,HTI,Haiti,Latin America and Caribbean,Emerging and Developing,False,False,False
+71,HND,Honduras,Latin America and Caribbean,Emerging and Developing,False,False,False
+72,HKG,Hong Kong SAR,East Asia and Pacific,Advanced,False,False,False
+73,HUN,Hungary,Europe and Central Asia,Emerging and Developing,False,True,False
+74,ISL,Iceland,Europe and Central Asia,Advanced,False,False,False
+75,IND,India,South Asia,Emerging and Developing,False,False,False
+76,IDN,Indonesia,East Asia and Pacific,Emerging and Developing,False,False,True
+77,IRQ,Iraq,Middle East and North Africa,Emerging and Developing,False,False,False
+78,IRL,Ireland,Europe and Central Asia,Advanced,False,True,False
+79,IRN,Islamic Republic of Iran,Middle East and North Africa,Emerging and Developing,False,False,False
+80,ISR,Israel,Middle East and North Africa,Advanced,False,False,False
+81,ITA,Italy,Europe and Central Asia,Advanced,True,True,False
+82,JAM,Jamaica,Latin America and Caribbean,Emerging and Developing,False,False,False
+83,JPN,Japan,East Asia and Pacific,Advanced,True,False,False
+84,JOR,Jordan,Middle East and North Africa,Emerging and Developing,False,False,False
+85,KAZ,Kazakhstan,Europe and Central Asia,Emerging and Developing,False,False,False
+86,KEN,Kenya,Sub-Saharan Africa,Emerging and Developing,False,False,False
+87,KIR,Kiribati,East Asia and Pacific,Emerging and Developing,False,False,False
+88,KOR,Korea,East Asia and Pacific,Advanced,False,False,False
+89,UVK,Kosovo,Europe and Central Asia,Emerging and Developing,False,False,False
+90,KWT,Kuwait,Middle East and North Africa,Emerging and Developing,False,False,False
+91,KGZ,Kyrgyz Republic,Europe and Central Asia,Emerging and Developing,False,False,False
+92,LAO,Lao P.D.R.,East Asia and Pacific,Emerging and Developing,False,False,False
+93,LVA,Latvia,Europe and Central Asia,Advanced,False,True,False
+94,LBN,Lebanon,Middle East and North Africa,Emerging and Developing,False,False,False
+95,LSO,Lesotho,Sub-Saharan Africa,Emerging and Developing,False,False,False
+96,LBR,Liberia,Sub-Saharan Africa,Emerging and Developing,False,False,False
+97,LBY,Libya,Middle East and North Africa,Emerging and Developing,False,False,False
+98,LTU,Lithuania,Europe and Central Asia,Advanced,False,True,False
+99,LUX,Luxembourg,Europe and Central Asia,Advanced,False,True,False
+100,MAC,Macao SAR,East Asia and Pacific,Advanced,False,False,False
+101,MDG,Madagascar,Sub-Saharan Africa,Emerging and Developing,False,False,False
+102,MWI,Malawi,Sub-Saharan Africa,Emerging and Developing,False,False,False
+103,MYS,Malaysia,East Asia and Pacific,Emerging and Developing,False,False,True
+104,MDV,Maldives,South Asia,Emerging and Developing,False,False,False
+105,MLI,Mali,Sub-Saharan Africa,Emerging and Developing,False,False,False
+106,MLT,Malta,Middle East and North Africa,Advanced,False,True,False
+107,MHL,Marshall Islands,East Asia and Pacific,Emerging and Developing,False,False,False
+108,MRT,Mauritania,Sub-Saharan Africa,Emerging and Developing,False,False,False
+109,MUS,Mauritius,Sub-Saharan Africa,Emerging and Developing,False,False,False
+110,MEX,Mexico,Latin America and Caribbean,Emerging and Developing,False,False,False
+111,FSM,Micronesia,East Asia and Pacific,Emerging and Developing,False,False,False
+112,MDA,Moldova,Europe and Central Asia,Emerging and Developing,False,False,False
+113,MNG,Mongolia,East Asia and Pacific,Emerging and Developing,False,False,False
+114,MNE,Montenegro,Europe and Central Asia,Emerging and Developing,False,False,False
+115,MAR,Morocco,Middle East and North Africa,Emerging and Developing,False,False,False
+116,MOZ,Mozambique,Sub-Saharan Africa,Emerging and Developing,False,False,False
+117,MMR,Myanmar,East Asia and Pacific,Emerging and Developing,False,False,False
+118,NAM,Namibia,Sub-Saharan Africa,Emerging and Developing,False,False,False
+119,NRU,Nauru,East Asia and Pacific,Emerging and Developing,False,False,False
+120,NPL,Nepal,South Asia,Emerging and Developing,False,False,False
+121,NLD,Netherlands,Europe and Central Asia,Advanced,False,True,False
+122,NZL,New Zealand,East Asia and Pacific,Advanced,False,False,False
+123,NIC,Nicaragua,Latin America and Caribbean,Emerging and Developing,False,False,False
+124,NER,Niger,Sub-Saharan Africa,Emerging and Developing,False,False,False
+125,NGA,Nigeria,Sub-Saharan Africa,Emerging and Developing,False,False,False
+126,MKD,North Macedonia,Europe and Central Asia,Emerging and Developing,False,False,False
+127,NOR,Norway,Europe and Central Asia,Advanced,False,False,False
+128,OMN,Oman,Middle East and North Africa,Emerging and Developing,False,False,False
+129,PAK,Pakistan,South Asia,Emerging and Developing,False,False,False
+130,PLW,Palau,East Asia and Pacific,Emerging and Developing,False,False,False
+131,PAN,Panama,Latin America and Caribbean,Emerging and Developing,False,False,False
+132,PNG,Papua New Guinea,East Asia and Pacific,Emerging and Developing,False,False,False
+133,PRY,Paraguay,Latin America and Caribbean,Emerging and Developing,False,False,False
+134,PER,Peru,Latin America and Caribbean,Emerging and Developing,False,False,False
+135,PHL,Philippines,East Asia and Pacific,Emerging and Developing,False,False,True
+136,POL,Poland,Europe and Central Asia,Emerging and Developing,False,True,False
+137,PRT,Portugal,Europe and Central Asia,Advanced,False,True,False
+138,PRI,Puerto Rico,Latin America and Caribbean,Advanced,False,False,False
+139,QAT,Qatar,Middle East and North Africa,Emerging and Developing,False,False,False
+140,COG,Republic of Congo,Sub-Saharan Africa,Emerging and Developing,False,False,False
+141,ROU,Romania,Europe and Central Asia,Emerging and Developing,False,True,False
+142,RUS,Russia,Europe and Central Asia,Emerging and Developing,False,False,False
+143,RWA,Rwanda,Sub-Saharan Africa,Emerging and Developing,False,False,False
+144,WSM,Samoa,East Asia and Pacific,Emerging and Developing,False,False,False
+145,SMR,San Marino,Europe and Central Asia,Advanced,False,False,False
+146,SAU,Saudi Arabia,Middle East and North Africa,Emerging and Developing,False,False,False
+147,SEN,Senegal,Sub-Saharan Africa,Emerging and Developing,False,False,False
+148,SRB,Serbia,Europe and Central Asia,Emerging and Developing,False,False,False
+149,SYC,Seychelles,Sub-Saharan Africa,Emerging and Developing,False,False,False
+150,SLE,Sierra Leone,Sub-Saharan Africa,Emerging and Developing,False,False,False
+151,SGP,Singapore,East Asia and Pacific,Advanced,False,False,True
+152,SVK,Slovak Republic,Europe and Central Asia,Advanced,False,True,False
+153,SVN,Slovenia,Europe and Central Asia,Advanced,False,True,False
+154,SLB,Solomon Islands,East Asia and Pacific,Emerging and Developing,False,False,False
+155,SOM,Somalia,Sub-Saharan Africa,Emerging and Developing,False,False,False
+156,ZAF,South Africa,Sub-Saharan Africa,Emerging and Developing,False,False,False
+157,SSD,South Sudan,Sub-Saharan Africa,Emerging and Developing,False,False,False
+158,ESP,Spain,Europe and Central Asia,Advanced,False,True,False
+159,LKA,Sri Lanka,South Asia,Emerging and Developing,False,False,False
+160,KNA,St. Kitts and Nevis,Latin America and Caribbean,Emerging and Developing,False,False,False
+161,LCA,St. Lucia,Latin America and Caribbean,Emerging and Developing,False,False,False
+162,VCT,St. Vincent and the Grenadines,Latin America and Caribbean,Emerging and Developing,False,False,False
+163,SDN,Sudan,Sub-Saharan Africa,Emerging and Developing,False,False,False
+164,SUR,Suriname,Latin America and Caribbean,Emerging and Developing,False,False,False
+165,SWE,Sweden,Europe and Central Asia,Advanced,False,True,False
+166,CHE,Switzerland,Europe and Central Asia,Advanced,False,False,False
+167,SYR,Syria,Middle East and North Africa,Emerging and Developing,False,False,False
+168,STP,S„o TomÈ and PrÌncipe,,,,,
+169,TWN,Taiwan Province of China,East Asia and Pacific,Advanced,False,False,False
+170,TJK,Tajikistan,Europe and Central Asia,Emerging and Developing,False,False,False
+171,TZA,Tanzania,Sub-Saharan Africa,Emerging and Developing,False,False,False
+172,THA,Thailand,East Asia and Pacific,Emerging and Developing,False,False,True
+173,BHS,The Bahamas,Latin America and Caribbean,Emerging and Developing,False,False,False
+174,GMB,The Gambia,Sub-Saharan Africa,Emerging and Developing,False,False,False
+175,TLS,Timor-Leste,East Asia and Pacific,Emerging and Developing,False,False,False
+176,TGO,Togo,Sub-Saharan Africa,Emerging and Developing,False,False,False
+177,TON,Tonga,East Asia and Pacific,Emerging and Developing,False,False,False
+178,TTO,Trinidad and Tobago,Latin America and Caribbean,Emerging and Developing,False,False,False
+179,TUN,Tunisia,Middle East and North Africa,Emerging and Developing,False,False,False
+180,TKM,Turkmenistan,Europe and Central Asia,Emerging and Developing,False,False,False
+181,TUV,Tuvalu,East Asia and Pacific,Emerging and Developing,False,False,False
+182,TUR,T¸rkiye,,,,,
+183,UGA,Uganda,Sub-Saharan Africa,Emerging and Developing,False,False,False
+184,UKR,Ukraine,Europe and Central Asia,Emerging and Developing,False,False,False
+185,ARE,United Arab Emirates,Middle East and North Africa,Emerging and Developing,False,False,False
+186,GBR,United Kingdom,Europe and Central Asia,Advanced,True,False,False
+187,USA,United States,North America,Advanced,True,False,False
+188,URY,Uruguay,Latin America and Caribbean,Emerging and Developing,False,False,False
+189,UZB,Uzbekistan,Europe and Central Asia,Emerging and Developing,False,False,False
+190,VUT,Vanuatu,East Asia and Pacific,Emerging and Developing,False,False,False
+191,VEN,Venezuela,Latin America and Caribbean,Emerging and Developing,False,False,False
+192,VNM,Vietnam,East Asia and Pacific,Emerging and Developing,False,False,False
+193,WBG,West Bank and Gaza,Middle East and North Africa,Emerging and Developing,False,False,False
+194,YEM,Yemen,Middle East and North Africa,Emerging and Developing,False,False,False
+195,ZMB,Zambia,Sub-Saharan Africa,Emerging and Developing,False,False,False
+196,ZWE,Zimbabwe,Sub-Saharan Africa,Emerging and Developing,False,False,False
+197,,,,,,,
+198,,,,,,,
