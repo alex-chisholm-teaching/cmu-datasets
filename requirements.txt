@@ -10,3 +10,5 @@ streamlit
 plotly
 duckdb
 seaborn
+psycopg2
+dotenv
