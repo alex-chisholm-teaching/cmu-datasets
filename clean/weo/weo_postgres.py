@@ -4,8 +4,8 @@ WEO PostgreSQL Database Creation Script
 
 Creates PostgreSQL database tables from World Economic Outlook CSV files:
 - countries.csv -> countries table
-- indicators.csv -> metrics table (definitions)
-- metrics.csv -> indicators table (actual data)
+- indicators.csv -> indicators table (definitions)
+- metrics.csv -> metrics table (actual data)
 
 Requires .env file with PostgreSQL credentials:
 DATABASE_URL=postgresql://user:password@host:port/database
@@ -124,13 +124,13 @@ def create_weo_postgres_database():
         print(f"  Inserted {len(countries_df)} countries")
         
         # =====================================================================
-        # 2. CREATE METRICS TABLE (definitions)
+        # 2. CREATE INDICATORS TABLE (definitions)
         # =====================================================================
-        print("Creating metrics table...")
+        print("Creating indicators table...")
         
-        cursor.execute("DROP TABLE IF EXISTS metrics CASCADE")
+        cursor.execute("DROP TABLE IF EXISTS indicators CASCADE")
         cursor.execute("""
-            CREATE TABLE metrics (
+            CREATE TABLE indicators (
                 indicator_id SERIAL PRIMARY KEY,
                 subject_code VARCHAR(20) UNIQUE NOT NULL,
                 description TEXT,
@@ -141,44 +141,44 @@ def create_weo_postgres_database():
         """)
         
         # Load and clean metrics data
-        metrics_df = pd.read_csv('indicators.csv')  # This has the definitions
+        indicators_df = pd.read_csv('indicators.csv')  # This has the definitions
         
         # Remove rows with missing essential data (subject_code)
-        metrics_df = metrics_df.dropna(subset=['subject_code'])
+        indicators_df = indicators_df.dropna(subset=['subject_code'])
         
         # Remove any rows where subject_code is empty string
-        if 'subject_code' in metrics_df.columns:
-            metrics_df = metrics_df[metrics_df['subject_code'].astype(str).str.strip() != '']
+        if 'subject_code' in indicators_df.columns:
+            indicators_df = indicators_df[indicators_df['subject_code'].astype(str).str.strip() != '']
         
         # Clean the data - handle missing values
         text_cols = ['description', 'notes', 'units', 'scale']
         for col in text_cols:
-            if col in metrics_df.columns:
-                metrics_df[col] = metrics_df[col].fillna('')
+            if col in indicators_df.columns:
+                indicators_df[col] = indicators_df[col].fillna('')
         
         # Convert empty strings to None for SQL NULL
-        metrics_df = metrics_df.replace('', None)
+        indicators_df = indicators_df.replace('', None)
         
-        metrics_data = [tuple(row) for row in metrics_df.values]
+        indicators_data = [tuple(row) for row in indicators_df.values]
         
         execute_values(
             cursor,
-            """INSERT INTO metrics (indicator_id, subject_code, description, notes, units, scale) VALUES %s""",
-            metrics_data
+            """INSERT INTO indicators (indicator_id, subject_code, description, notes, units, scale) VALUES %s""",
+            indicators_data
         )
-        print(f"  Inserted {len(metrics_df)} metric definitions")
+        print(f"  Inserted {len(indicators_df)} metric definitions")
         
         # =====================================================================
-        # 3. CREATE INDICATORS TABLE (actual data)
+        # 3. CREATE METRICS TABLE (actual data)
         # =====================================================================
-        print("Creating indicators table...")
+        print("Creating metrics table...")
         
-        cursor.execute("DROP TABLE IF EXISTS indicators CASCADE")
+        cursor.execute("DROP TABLE IF EXISTS metrics CASCADE")
         cursor.execute("""
-            CREATE TABLE indicators (
+            CREATE TABLE metrics (
                 metric_id SERIAL PRIMARY KEY,
                 iso_code VARCHAR(3) NOT NULL REFERENCES countries(iso_code),
-                subject_code VARCHAR(20) NOT NULL REFERENCES metrics(subject_code),
+                subject_code VARCHAR(20) NOT NULL REFERENCES indicators(subject_code),
                 year INTEGER NOT NULL,
                 value NUMERIC,
                 UNIQUE(iso_code, subject_code, year)
@@ -186,23 +186,23 @@ def create_weo_postgres_database():
         """)
         
         # Load and clean indicators data
-        indicators_df = pd.read_csv('metrics.csv')  # This has the actual data
+        metrics_df = pd.read_csv('metrics.csv')  # This has the actual data
         
         # Clean the data - replace '--' and other non-numeric values with NaN
-        indicators_df['value'] = pd.to_numeric(indicators_df['value'], errors='coerce')
+        metrics_df['value'] = pd.to_numeric(metrics_df['value'], errors='coerce')
         
         # Remove rows with missing values
-        indicators_df = indicators_df.dropna(subset=['value'])
+        metrics_df = metrics_df.dropna(subset=['value'])
         
         # Prepare data for insertion
-        indicators_data = [tuple(row) for row in indicators_df.values]
+        metrics_data = [tuple(row) for row in metrics_df.values]
         
         execute_values(
             cursor,
-            """INSERT INTO indicators (metric_id, iso_code, subject_code, year, value) VALUES %s""",
-            indicators_data
+            """INSERT INTO metrics (metric_id, iso_code, subject_code, year, value) VALUES %s""",
+            metrics_data
         )
-        print(f"  Inserted {len(indicators_df)} observations")
+        print(f"  Inserted {len(metrics_df)} observations")
         
         # =====================================================================
         # 4. CREATE INDEXES
@@ -210,11 +210,11 @@ def create_weo_postgres_database():
         print("Creating indexes...")
         
         cursor.execute("CREATE INDEX idx_countries_iso ON countries(iso_code)")
-        cursor.execute("CREATE INDEX idx_indicators_iso ON indicators(iso_code)")
         cursor.execute("CREATE INDEX idx_indicators_subject ON indicators(subject_code)")
-        cursor.execute("CREATE INDEX idx_indicators_year ON indicators(year)")
-        cursor.execute("CREATE INDEX idx_indicators_value ON indicators(value)")
+        cursor.execute("CREATE INDEX idx_metrics_iso ON metrics(iso_code)")
         cursor.execute("CREATE INDEX idx_metrics_subject ON metrics(subject_code)")
+        cursor.execute("CREATE INDEX idx_metrics_year ON metrics(year)")
+        cursor.execute("CREATE INDEX idx_metrics_value ON metrics(value)")
         
         # =====================================================================
         # 5. ADD FOREIGN KEY CONSTRAINTS (if not already added)
@@ -223,7 +223,7 @@ def create_weo_postgres_database():
         
         # Add check constraints
         cursor.execute("""
-            ALTER TABLE indicators 
+            ALTER TABLE metrics 
             ADD CONSTRAINT chk_year_range 
             CHECK (year >= 1980 AND year <= 2030)
         """)
@@ -254,13 +254,13 @@ def create_weo_postgres_database():
         # Example query
         print(f"\nSample query - GDP data for USA in 2023:")
         cursor.execute("""
-            SELECT c.name, m.description, i.value, m.units
-            FROM indicators i
-            JOIN countries c ON i.iso_code = c.iso_code
-            JOIN metrics m ON i.subject_code = m.subject_code
+            SELECT c.name, i.description, m.value, i.units
+            FROM metrics m
+            JOIN countries c ON m.iso_code = c.iso_code
+            JOIN indicators i ON m.subject_code = i.subject_code
             WHERE c.iso_code = 'USA' 
-              AND i.year = 2023 
-              AND i.subject_code = 'NGDPD'
+              AND m.year = 2023 
+              AND m.subject_code = 'NGDPD'
         """)
         
         results = cursor.fetchall()

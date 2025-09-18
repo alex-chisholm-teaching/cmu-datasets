@@ -39,35 +39,13 @@ def create_weo_database():
     conn.execute("INSERT INTO countries SELECT * FROM countries_df")
     print(f"  Inserted {len(countries_df)} countries")
     
-    # Load indicators table (actual data)
+    # Load indicators table (definitions)
     print("Loading indicators table...")
-    indicators_df = pd.read_csv('metrics.csv')  # This has the actual data
-    
-    # Clean the data - replace '--' and other non-numeric values with NaN
-    indicators_df['value'] = pd.to_numeric(indicators_df['value'], errors='coerce')
-    
-    # Remove rows with missing values
-    indicators_df = indicators_df.dropna(subset=['value'])
+    indicators_df = pd.read_csv('indicators.csv')  # This has the definitions
     
     conn.execute("DROP TABLE IF EXISTS indicators")
     conn.execute("""
         CREATE TABLE indicators (
-            metric_id INTEGER PRIMARY KEY,
-            iso_code VARCHAR(3),
-            subject_code VARCHAR(20),
-            year INTEGER,
-            value DOUBLE
-        )
-    """)
-    conn.execute("INSERT INTO indicators SELECT * FROM indicators_df")
-    print(f"  Inserted {len(indicators_df)} observations")
-    
-    # Load metrics table (definitions)
-    print("Loading metrics table...")
-    metrics_df = pd.read_csv('indicators.csv')  # This has the definitions
-    conn.execute("DROP TABLE IF EXISTS metrics")
-    conn.execute("""
-        CREATE TABLE metrics (
             indicator_id INTEGER PRIMARY KEY,
             subject_code VARCHAR(20),
             description TEXT,
@@ -76,16 +54,39 @@ def create_weo_database():
             scale VARCHAR(50)
         )
     """)
+    conn.execute("INSERT INTO indicators SELECT * FROM indicators_df")
+    print(f"  Inserted {len(indicators_df)} indicator definitions")
+    
+    # Load metrics table (actual data)
+    print("Loading metrics table...")
+    metrics_df = pd.read_csv('metrics.csv')  # This has the actual data
+    
+    # Clean the data - replace '--' and other non-numeric values with NaN
+    metrics_df['value'] = pd.to_numeric(metrics_df['value'], errors='coerce')
+    
+    # Remove rows with missing values
+    metrics_df = metrics_df.dropna(subset=['value'])
+    
+    conn.execute("DROP TABLE IF EXISTS metrics")
+    conn.execute("""
+        CREATE TABLE metrics (
+            metric_id INTEGER PRIMARY KEY,
+            iso_code VARCHAR(3),
+            subject_code VARCHAR(20),
+            year INTEGER,
+            value DOUBLE
+        )
+    """)
     conn.execute("INSERT INTO metrics SELECT * FROM metrics_df")
-    print(f"  Inserted {len(metrics_df)} metric definitions")
+    print(f"  Inserted {len(metrics_df)} observations")
     
     # Create indexes for better query performance
     print("Creating indexes...")
     conn.execute("CREATE INDEX idx_countries_iso ON countries(iso_code)")
-    conn.execute("CREATE INDEX idx_indicators_iso ON indicators(iso_code)")
     conn.execute("CREATE INDEX idx_indicators_subject ON indicators(subject_code)")
-    conn.execute("CREATE INDEX idx_indicators_year ON indicators(year)")
+    conn.execute("CREATE INDEX idx_metrics_iso ON metrics(iso_code)")
     conn.execute("CREATE INDEX idx_metrics_subject ON metrics(subject_code)")
+    conn.execute("CREATE INDEX idx_metrics_year ON metrics(year)")
     
     # Display database info
     print("\nDatabase created successfully!")
@@ -104,13 +105,13 @@ def create_weo_database():
     # Example query
     print(f"\nSample query - GDP data for USA in 2023:")
     result = conn.execute("""
-        SELECT c.name, m.description, i.value, m.units
-        FROM indicators i
-        JOIN countries c ON i.iso_code = c.iso_code
-        JOIN metrics m ON i.subject_code = m.subject_code
+        SELECT c.name, i.description, m.value, i.units
+        FROM metrics m
+        JOIN countries c ON m.iso_code = c.iso_code
+        JOIN indicators i ON m.subject_code = i.subject_code
         WHERE c.iso_code = 'USA' 
-          AND i.year = 2023 
-          AND i.subject_code = 'NGDPD'
+          AND m.year = 2023 
+          AND m.subject_code = 'NGDPD'
     """).fetchall()
     
     for row in result:
