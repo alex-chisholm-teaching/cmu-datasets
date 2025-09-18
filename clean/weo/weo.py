@@ -16,7 +16,7 @@ def create_weo_database():
     """Create WEO database from CSV files."""
     
     # Connect to DuckDB (creates file if doesn't exist)
-    conn = duckdb.connect('weo.db')
+    conn = duckdb.connect('weo.duckdb')
     
     print("Creating WEO database...")
     
@@ -90,7 +90,7 @@ def create_weo_database():
     
     # Display database info
     print("\nDatabase created successfully!")
-    print(f"Database file: {Path('weo.db').absolute()}")
+    print(f"Database file: {Path('weo.duckdb').absolute()}")
     
     # Show table counts
     countries_count = conn.execute("SELECT COUNT(*) FROM countries").fetchone()[0]
