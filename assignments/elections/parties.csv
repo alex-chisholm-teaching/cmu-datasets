@@ -1,0 +1,32 @@
+party_id,party_name,party_abbreviation,founded_year,ideology
+party_001,Federalist,FED,1792,Conservative
+party_002,Democratic-Republican,DR,1792,Liberal
+party_003,Antifederalist,AF,1789,Anti-federalist
+party_004,Independent-Federalist,IF,1796,Moderate conservative
+party_005,Independent,IND,1796,Independent
+party_006,Independent-Republican,IR,1820,Moderate liberal
+party_007,no distinct party designations,NONE,1824,Non-partisan
+party_008,Democratic,DEM,1828,Liberal
+party_009,National Republican,NR,1825,Conservative
+party_010,Anti-Masonic,AM,1828,Single-issue
+party_011,Nullifiers,NULL,1832,States' rights
+party_012,Whig,WHIG,1833,Conservative
+party_013,Anti-Jackson,AJ,1832,Opposition
+party_014,Liberty,LIB,1840,Abolitionist
+party_015,Free Soil,FS,1848,Anti-slavery
+party_016,American (Know-Nothing),AME,1845,Nativist
+party_017,Republican,REP,1854,Conservative
+party_018,Southern Democratic,SD,1860,Pro-slavery
+party_019,Constitutional Union,CU,1860,Unionist
+party_020,Democratic/Liberal Republican,DLR,1872,Coalition
+party_021,Independent-Democratic,ID,1872,Independent
+party_022,Greenback,GB,1876,Monetary reform
+party_023,People's (Populist),POP,1892,Populist
+party_024,Prohibition,PRO,1869,Temperance
+party_025,Socialist,SOC,1901,Socialist
+party_026,Progressive (Bull Moose),PROG,1912,Progressive
+party_027,States' Rights Democratic (Dixiecrat),SRD,1948,Segregationist
+party_028,Progressive,PROG2,1948,Liberal
+party_029,American Independent,AI,1967,Segregationist
+party_030,Green,GREEN,1984,Environmental
+party_031,Reform,REF,1995,Populist
