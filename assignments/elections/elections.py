@@ -41,7 +41,7 @@ def create_elections_database():
         conn.execute("CREATE TABLE candidates AS SELECT * FROM candidates_df")
         conn.execute("CREATE TABLE elections AS SELECT * FROM elections_df")
         conn.execute("CREATE TABLE political_parties AS SELECT * FROM parties_df")
-        conn.execute("CREATE TABLE election_results AS SELECT * FROM results_df")
+        conn.execute("CREATE TABLE results AS SELECT * FROM results_df")
         
         # Verify tables were created
         tables = conn.execute("SHOW TABLES").fetchall()
@@ -88,7 +88,7 @@ def test_database_connection(db_path=None):
                 er.electoral_votes,
                 p.party_name
             FROM candidates c
-            JOIN election_results er ON c.candidate_id = er.candidate_id
+            JOIN results er ON c.candidate_id = er.candidate_id
             JOIN elections e ON er.election_id = e.election_id
             LEFT JOIN political_parties p ON er.party_id = p.party_id
             WHERE er.result_type = 'winner'
