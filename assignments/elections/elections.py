@@ -40,7 +40,7 @@ def create_elections_database():
         # Create tables from dataframes
         conn.execute("CREATE TABLE candidates AS SELECT * FROM candidates_df")
         conn.execute("CREATE TABLE elections AS SELECT * FROM elections_df")
-        conn.execute("CREATE TABLE political_parties AS SELECT * FROM parties_df")
+        conn.execute("CREATE TABLE parties AS SELECT * FROM parties_df")
         conn.execute("CREATE TABLE results AS SELECT * FROM results_df")
         
         # Verify tables were created
@@ -90,7 +90,7 @@ def test_database_connection(db_path=None):
             FROM candidates c
             JOIN results er ON c.candidate_id = er.candidate_id
             JOIN elections e ON er.election_id = e.election_id
-            LEFT JOIN political_parties p ON er.party_id = p.party_id
+            LEFT JOIN parties p ON er.party_id = p.party_id
             WHERE er.result_type = 'winner'
             ORDER BY e.election_year DESC
             LIMIT 5

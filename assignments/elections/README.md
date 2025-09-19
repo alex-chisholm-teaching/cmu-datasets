@@ -20,7 +20,7 @@ This directory contains a normalized relational database of US Presidential Elec
 3. **elections.csv**
    - Primary Key: `election_id`
    - Contains information about each presidential election including population data
-   - Fields: election_id, election_year, election_type, total_electoral_votes, voter_turnout_percent, us_population_estimate, us_population_voting_age
+   - Fields: election_id, election_year, us_population_estimate, us_population_voting_age
 
 4. **election_results.csv**
    - Primary Key: `result_id`
