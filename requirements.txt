@@ -12,3 +12,4 @@ duckdb
 seaborn
 psycopg2
 dotenv
+beautifulsoup4
